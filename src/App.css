@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Codystar');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+/* START: Utility Classes */
+
+.takeFullViewportHeight {
+  height: 100vh;
+}
+
+.flipImage {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.centerText {
+  text-align: center !important;
+}
+
+.codystarFont {
+  font-family: 'Codystar', sans-serif;
+}
+
+.pressStart2PFont {
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+/* END: Utility Classes */
+
+/* START: Element Styling */
+
+h1 a, a:visited {
+  color: #8D0;
+}
+
+h1 a:hover {
+  color: #AF0;
+  font-size: 115%;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* END: Element Styling */
+
+/* START: Element Classes */
+
+.backgroundGradient {
+  background: #815; /* For browsers that don't support gradients */
+  background: linear-gradient(to top, #FC0, #C60, #A13, #815, #616, #316, #104);
+}
+
+.palmTreeImage {
+  width: 100%;
+  position: absolute;
+  bottom: -104vh;
+}
+
+.contentBlock {
+  color: #AF0;
+  border-radius: 1em;
+  border: 5px solid #AF0;
+  background: #333;
+  background: linear-gradient(to top right, rgba(33, 33, 33, 0.66), rgba(0, 0, 0, 0.45), rgba(33, 33, 33, 0.66));
+  position: absolute;
+  height: 72vh;
+  top: 10vh;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.gitHubIcon {
+  font-size: 5em;
+}
+
+.popUpText {
+  color: #6A0;
+  display: inline-block;
+  border: 3px solid #6A0;
+  border-radius: 1024px;
+  padding: 1em;
+  background-color: rgba(33, 33, 33, 0.5);
+}
+
+.footerBlock {
+  background: radial-gradient(to bottom, #AF0, #640, #000, #000, #000);
+  bottom: 0px;
+  padding: 0.5em;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+/* END: Element Classes */
